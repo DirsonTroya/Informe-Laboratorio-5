@@ -4,19 +4,19 @@ NOMBRES: JEAN MACIAS, DIRSON TROYA, JOAN CALDERÓN
 
 NRC: 10063
 
-OBJETIVOS:
+## OBJETIVOS
 
-OBJETIVO GENERAL
+### OBJETIVO GENERAL
 
 Comprender el funcionamiento del teorema de Thévenin en implementarlo para la resolución de circuitos eléctricos.
 
-OBJETIVOS ESPECÍFICOS:
+### OBJETIVOS ESPECÍFICOS
 
 Resolver circuitos complejos con dos o más fuentes de alimentación mediante el uso del teorema de Thévenin
 
 Aprender a realizar circuitos equivalentes para encontrar las distintas incógnitas propuestas en un circuito.
 
-5.2 REQUISITOS PREVIOS
+## 5.2 REQUISITOS PREVIOS
 
 Para el circuito mostrado en la figura 5.1:
 
@@ -24,7 +24,7 @@ a) Determine el valor del voltaje y la corriente en el resistor R5. Anote los re
 
 b) Obtenga los valores del circuito equivalente de Thevenin y anótelos en la tabla 5.1.
 
-5.3 INFORMACIÓN GENERAL
+## 5.3 INFORMACIÓN GENERAL
 
 Una de las maneras de simplificar y facilitar el análisis de circuitos eléctricos y electrónicos es por medio del Teorema de Thévenin que establece que:
 
@@ -34,13 +34,13 @@ El voltaje de Thévenin (VTH) es el voltaje en circuito abierto entre las termin
 
 La resistencia de Thévenin (RTH) es la resistencia equivalente vista de la terminal del circuito para el equivalente de Thévenin, con las fuentes de alimentación en cero.
 
-5.4 MATERIAL Y EQUIPO REQUERIDO
+## 5.4 MATERIAL Y EQUIPO REQUERIDO
 
 ![1](https://user-images.githubusercontent.com/117947198/211036364-0be9d40f-40c9-428a-8cf9-9750ceef3d9f.png)
 
-5.5 PROCEDIMIENTO
+## 5.5 PROCEDIMIENTO
 
-5.5.1 Arme el circuito que se muestra en la figura 5.1.
+### 5.5.1 Arme el circuito que se muestra en la figura 5.1.
 
 Figura 5.1:
 
@@ -52,7 +52,7 @@ Circuito Armado:
 ![3](https://user-images.githubusercontent.com/117947198/211036453-7c51e554-0ab1-4ccc-b17d-bcfe9cd204c2.png)
 
 
-5.5.2 Mida el voltaje y la corriente en el resistor R5, anote los resultados en la tabla 5.2.
+### 5.5.2 Mida el voltaje y la corriente en el resistor R5, anote los resultados en la tabla 5.2.
 
 Medidas realizadas en tinkercad:
 
@@ -72,7 +72,7 @@ Tabla 5.2: Comprobación del teorema de thévenin
 ![7](https://user-images.githubusercontent.com/117947198/211036634-6c0c7e94-a4f3-4f94-a665-85173bf775c1.png)
 
 
-5.5.3 Desconecte el resistor R5 y mida el voltaje en el circuito abierto. Anote el valor medido en la tabla 5.1.
+### 5.5.3 Desconecte el resistor R5 y mida el voltaje en el circuito abierto. Anote el valor medido en la tabla 5.1.
 
 Medidas realizadas en tinkercad:
 
@@ -85,7 +85,7 @@ Cálculos realizados:
 
 ![10](https://user-images.githubusercontent.com/117947198/211036756-c8794bf0-0672-44ce-aea8-fcaebf5921c7.png)
 
-5.5.4 Anule el efecto de las fuentes de alimentación. Desconecte R5 y desde el circuito abierto resultante mida la resistencia equivalente. Anote el valor medido en la tabla 5.1.
+### 5.5.4 Anule el efecto de las fuentes de alimentación. Desconecte R5 y desde el circuito abierto resultante mida la resistencia equivalente. Anote el valor medido en la tabla 5.1.
 
 Medidas realizadas en Tinkercad:
 
@@ -101,7 +101,7 @@ Tabla 5.1: Valores del circuito equivalente de Thévenin
 ![13](https://user-images.githubusercontent.com/117947198/211036895-14014b84-88e6-4eca-9ff8-d85ea792a526.png)
 
 
-5.5.5 Implemente el circuito equivalente de Thévenin, agregue el resistor R5 y mida la corriente y el voltaje en el mismo, anote los resultados en la tabla 5.2.
+### 5.5.5 Implemente el circuito equivalente de Thévenin, agregue el resistor R5 y mida la corriente y el voltaje en el mismo, anote los resultados en la tabla 5.2.
 
 Medidas realizadas en tinkercad:
 
@@ -150,10 +150,10 @@ Corriente del Circuito equivalente de Thévenin
 
 Los diferentes porcentajes de error hallados son demasiado bajos por lo que se concluye que los cálculos se realizaron de manera correcta.
 
-CONCLUSIONES
+## CONCLUSIONES
 El teorema de Thévenin simplifica mucho la complejidad de resolver un circuito pero se debe manejar con eficacia las Leyes de KIRCHHOFF y de Ohm.
 
 El teorema de Thévenin nos indica como trabajar un circuito en base a una resistencia para hallar las diferentes incógnitas.
 
-BIBLIOGRAFÍA
+## BIBLIOGRAFÍA
 FLOYD, THOMAS L.Principios de circuitos eléctricos. Octava edición. PEARSON EDUCACIÓN, México, 2007
